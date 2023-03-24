@@ -1,36 +1,70 @@
-header {
-    display: flex;
-    align-items: center;
-    font-size: 2em; /* increase the font size */
-    font-family: 'Montserrat', sans-serif; /* change the font style */
-    
-}
-
-header h1, header nav {
+body {
+    font-family: 'Helvetica Neue', sans-serif;
     margin: 0;
-
-}
-
-
-header nav ul {
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  nav ul {
     list-style: none;
     margin: 0;
-    padding: 10px;
-    
-}
-
-header nav ul li {
-    margin-right: 10px;
-    
-}
-a {
-    color: #333; /* change the link color */
+    padding: 0;
+    display: flex;
   }
-nav a {
-  text-decoration: none; /* remove the underline */
-  color: #333; /* change the link color */
-}
-nav a:hover {
-  color: #0066ff; /* change the link color on hover */
-}
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  section h1 {
+    margin-top: 0;
+  }
+  
+  section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section ul li {
+    margin: 10px 0;
+  }
+  
+  section ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  #portfolio {
+    background-color: #f2f2f2;
+  }
+  
+  #writing {
+    background-color: #d9d9d9;
+  }
+  
+  #about {
+    background-color: #bfbfbf;
+  }
+  
