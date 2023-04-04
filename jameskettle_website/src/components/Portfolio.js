@@ -1,12 +1,11 @@
 import React from 'react';
 
-function Portfolio() {
+const Portfolio = () => {
   return (
-    <div>
-      <h1>Portfolio</h1>
-      <p>Your projects go here...</p>
+    <div className="container">
+      <h2>Portfolio</h2>
     </div>
   );
-}
+};
 
 export default Portfolio;

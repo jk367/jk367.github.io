@@ -1,12 +1,11 @@
 import React from 'react';
 
-function Music() {
+const Music = () => {
   return (
-    <div>
-      <h1>Music Collection</h1>
-      <p>Your music collection goes here...</p>
+    <div className="container">
+      <h2>Music</h2>
     </div>
   );
-}
+};
 
 export default Music;
