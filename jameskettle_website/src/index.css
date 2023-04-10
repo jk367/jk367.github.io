@@ -16,4 +16,173 @@ body {
   margin: 0 auto;
   padding: 20px;
 }
+body {
+  font-family: 'Crimson Text', serif;
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f7f2e8; /* light beige */
+}
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+.header-name {
+  font-size: 2em;
+  font-weight: 600;
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-nav {
+  display: flex;
+  gap: 1em;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: inherit;
+  padding: 0.5em;
+  transition: color 0.3s;
+}
+
+.header-nav a.active,
+.header-nav a:hover {
+  color: #0077cc;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.article-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.article-list-item {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 1em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.article-title {
+  font-size: 24px;
+  margin-bottom: 0.5em;
+}
+
+.article-excerpt {
+  font-size: 16px;
+  color: #666;
+}
+.article-link {
+  font-family: 'Crimson Text', serif; /* match the font of the website */
+  font-size: 24px; /* increase the font size */
+  font-weight: 600; /* make the font bold */
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.article-link:hover {
+  color: #0077cc;
+}
+
+.read-more {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 1em;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+.article-content h1,
+.article-content h2,
+.article-content h3,
+.article-content h4,
+.article-content h5,
+.article-content h6 {
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
+}
+
+.article-content p {
+  margin-bottom: 1em;
+}
+
+.article-content blockquote {
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  border-left: 4px solid #ccc;
+  background-color: #f7f2e8;
+  font-style: italic;
+}
+
+.article-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+}
+
+.article-content pre {
+  background-color: #f7f2e8;
+  padding: 1em;
+  overflow-x: auto;
+  border-radius: 4px;
+}
+
+.article-content code {
+  font-family: 'Courier New', monospace;
+  font-size: 0.9em;
+}
+
+.article-content pre > code {
+  background-color: transparent;
+  padding: 0;
+}
+
+.writing-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.writing-container a {
+  font-size: 1.25em;
+  font-weight: 600;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.writing-container a:hover {
+  color: #0077cc;
+}
