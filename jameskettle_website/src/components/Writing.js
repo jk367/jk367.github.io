@@ -12,20 +12,20 @@ const Writing = () => {
 
   return (
     <div className="container">
-    <div className="article-list">
-      <h2>Articles</h2>
-      <ul>
-        {articles.map((article) => (
-          <li key={article.filename}>
-            <Link className="article-link" to={`/Writing/${article.filename}`}>
-               {article.title} - {article.date}
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <div>
+        <h1>Articles and Writings</h1>
+        <ul>
+          {articles.map((article) => (
+            <li key={article.filename}>
+              <Link className to={`/Writing/${article.filename}`}>
+                <span className="article-list-item">{article.title}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
-    </div>
-   );
+  );
 };
 
 export default Writing;
