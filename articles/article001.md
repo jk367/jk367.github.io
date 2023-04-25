@@ -1,6 +1,6 @@
 ---
 title: "First Article!"
-date: "2023-04-18"
+date: "2023-4-18"
 ---
 So, this is my first post on the website. I will keep it short and try to cover the reasons why I want to start writing again, why I'm hosting the website myself, and finally, what I'm planning to get out of this.
 
