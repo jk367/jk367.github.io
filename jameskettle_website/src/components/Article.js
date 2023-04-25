@@ -12,15 +12,20 @@ const Article = () => {
 
   useEffect(() => {
     fetch(`${process.env.PUBLIC_URL}/articles/${filename}`)
-      .then((response) => response.text())
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`Failed to fetch article: ${response.statusText}`);
+        }
+        return response.text();
+      })
       .then((data) => {
         const parsedMarkdown = frontMatter(data);
         setContent(parsedMarkdown.body);
         setTitle(parsedMarkdown.attributes.title);
         setDate(parsedMarkdown.attributes.date);
-      });
+      })
+      .catch((error) => console.error(error));
   }, [filename]);
-  
 
   return <ArticleTemplate title={title} date={date} content={content} />;
 };
