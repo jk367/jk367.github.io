@@ -5,7 +5,7 @@ const Writing = () => {
   const [articles, setArticles] = useState([]);
 
   useEffect(() => {
-    fetch('/articles/metadata.json')
+    fetch(`${process.env.PUBLIC_URL}/articles/metadata.json`)
       .then((response) => response.json())
       .then((data) => setArticles(data));
   }, []);

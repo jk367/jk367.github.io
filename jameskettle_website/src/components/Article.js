@@ -11,7 +11,7 @@ const Article = () => {
   const [date, setDate] = useState('');
 
   useEffect(() => {
-    fetch(`/articles/${filename}`)
+    fetch(`${process.env.PUBLIC_URL}/articles/${filename}`)
       .then((response) => response.text())
       .then((data) => {
         const parsedMarkdown = frontMatter(data);
@@ -20,6 +20,7 @@ const Article = () => {
         setDate(parsedMarkdown.attributes.date);
       });
   }, [filename]);
+  
 
   return <ArticleTemplate title={title} date={date} content={content} />;
 };
