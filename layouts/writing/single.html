@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/css/style.css">
+    <title>{{ .Title }}</title>
+</head>
+<body>
+    {{ partial "navbar.html" . }}
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+</body>
+</html>
+

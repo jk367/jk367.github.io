@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ .Title }}</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    {{ partial "navbar.html" . }}
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    <ul>
+        {{ range .Pages }}
+            <li>
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </li>
+        {{ end }}
+    </ul>
+</body>
+</html>
+
+
