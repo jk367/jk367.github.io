@@ -8,12 +8,23 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 07 Jun 2023 14:18:24 -0400</lastBuildDate><atom:link href="http://example.org/writing/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Post</title>
-      <link>http://example.org/writing/first_post/</link>
-      <pubDate>Wed, 07 Jun 2023 14:32:57 -0400</pubDate>
+      <title>A Georgian Sketchbook #1: Early Days</title>
+      <link>http://example.org/writing/ags2/</link>
+      <pubDate>Wed, 12 Jul 2023 17:45:53 +0400</pubDate>
       
-      <guid>http://example.org/writing/first_post/</guid>
-      <description>This is a first test post.</description>
+      <guid>http://example.org/writing/ags2/</guid>
+      <description>It&amp;rsquo;s July 11. It&amp;rsquo;s a misty morning in Tbilisi. The weather is much cooler than it was for the past few days. Tbilisi in the summer can be unbearably hot. There&amp;rsquo;s a light rain and slight fog that gently drapes over mountains that surround the city.
+Tbilisi is amazing. Tbilisi is chaotic. Tbilisi is hard to understand. I understand why I wanted to come here. For Westerners, the city feels mostly like a typical European city.</description>
+    </item>
+    
+    <item>
+      <title>A Georgian Sketchbook #0: Before we fly.</title>
+      <link>http://example.org/writing/ageorgiansketchbook0/</link>
+      <pubDate>Fri, 09 Jun 2023 14:32:57 -0400</pubDate>
+      
+      <guid>http://example.org/writing/ageorgiansketchbook0/</guid>
+      <description>This is the first article of my series on my travels and interviews in Georgia.
+There are times when places speak to you more than words. They speak a language that can&amp;rsquo;t be translated or understood by anyone else but you. Not everyone is lucky enough to have a place that speaks to them; some are so fortunate that they can have a conversation with every place they visit. I&amp;rsquo;m lucky that I found one.</description>
     </item>
     
   </channel>

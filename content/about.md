@@ -3,16 +3,17 @@ title: "About"
 date: 2023-06-07T17:34:25-04:00
 type: "about"
 ---
+About:
 
-About
+Hi, my name is James Kettle. I'm a writer and programmer currently living in Tbilisi, Georgia.
 
-Hi my name is James Kettle. 
-Some things about me that are good to know:
-I am from NYC, and went to Brooklyn Tech.
-I lived in France for two years for college.
-I went to Columbia for Infromation science (kinda a mix of CS and social Science).
-I really like music, and I make/preform it.
-I do a lot of programming and looking for work after school.
-I'm moving to Tblisi for a few months after college but Jan 2024 can relocate where ever.
-You can find about my work history in the portfilo section, and you can find my writing under the writing section
-You can shoot me an email at: "jameskettle2018 [at] gmail.com"
+Some highlights:
+
+* I went to Columbia and Sciences Po (‘23) and have two degrees, one in Economics and one in Information Science (a mix of Sociology and CS).
+* I have worked at BlackRock, Plural Strategy Consulting, a school in France, and an NGO called Impact Jeunes in Marseille.
+* I enjoy programming, designing, and writing. 
+* I’m a musician, I play the guitar and make Techno music.
+* After I graduted in May 2023, I decided to move to Georgia and become a Math Teacher at the Georgian American School.
+* I write about what interests me such as Georgia, Music, Nightlife, Technology, Relationships, and Sociology.
+
+If you want to reach me, you can by emailing me at jameskettle2018[@]gmail.com.
