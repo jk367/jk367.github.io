@@ -1,5 +1,5 @@
 ---
-title: "Simple_website"
+title: "A Simple Website"
 date: 2023-07-12T19:05:51+04:00
 draft: false
 ---
