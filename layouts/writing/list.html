@@ -9,11 +9,14 @@
     <h1>{{ .Title }}</h1>
     {{ .Content }}
     <ul>
-        {{ range .Pages }}
-            <li>
-                <a href="{{ .Permalink }}">{{ .Title }}</a>
-            </li>
-        {{ end }}
+	{{ range .Pages }}
+    <div>
+        <header>
+		<h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <p>Published on {{ .Date.Format "January 2, 2006" }}</p>
+        </header>
+    </div>
+    {{ end }}    
     </ul>
 </body>
 </html>

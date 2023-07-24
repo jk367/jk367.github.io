@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>James Kettle</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+{{ partial "navbar.html" . }}
+    <main class="grid-container">
+      <section>
+        <h1>James Kettle</h1>
+        <p>Writer and programmer currently living in Tbilisi, Georgia.</p>
+      </section>
+      
+      <section>
+	<h3> writings</h3>
+        <ul>
+    	{{ range first 5 (where .Site.RegularPages "Section" "writing") }}
+           <li>
+               <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </li>
+    	{{ end }}
+    	</ul>
+      </section>
+      
+      <section>
+      <h3>Things I like</h3>
+      <ul>
+      {{ range .Site.Taxonomies.categories }}
+        <li>
+            <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+        </li>
+      {{ end }}
+      </ul>
+      </section>
+      
+      <section>
+        <a href="/contact/">Get in contact.</a>
+      </section>
+    </main>
+    
+</body>
+</html>
+

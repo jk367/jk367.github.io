@@ -1,19 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>James Kettle</title>
-    <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
-    {{ partial "navbar.html" . }}
-    <h1>James Kettle</h1>
-    <p>Welcome to my website. This is a place to host my writing, resume, projects, and things I find of interest.</p>
-    <p>My <a href="/writing/">writing</a></p> 
-    <p>My <a href="/resume_james.pdf/">resume</a></p>
- 
-
-
-    
-</body>
-</html>
+{{ define "main" }}
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+{{ end }}
 

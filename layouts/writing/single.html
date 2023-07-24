@@ -6,8 +6,12 @@
 </head>
 <body>
     {{ partial "navbar.html" . }}
-    <h1>{{ .Title }}</h1>
-    {{ .Content }}
+    <div class="single-view">
+        <header class="post-header">
+            <h1>{{ .Title }}</h1>
+            <p class="post-date">Published on {{ .Date.Format "January 2, 2006" }}</p>
+        </header>
+        {{ .Content }}
+    </div>
 </body>
 </html>
-

@@ -1,8 +1,15 @@
 ---
-title: "Home"
+title: "James Kettle"
+date: 2022-06-07
 ---
+I'm a writer and programmer currently living in Tbilisi, Georgia.
 
-#James Kettle
+### Writings
 
-Hello, Welcome to my Digital Garden. Here you can find my writings, projects, resume,
-and things that I find interesting. 
+### Things I like
+[Link to your recommendations] 
+
+
+
+[Contact Me](/contact/)
+

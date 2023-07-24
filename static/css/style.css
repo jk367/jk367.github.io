@@ -1,30 +1,68 @@
+/* ===============================================================
+    Variables
+================================================================= */
+
+:root {
+    --primary-color: #333;
+    --secondary-color: #000;
+    --body-font: Georgia, serif;
+    --main-header-font-size: 1em;  /* for main headers */
+    --post-title-font-size: 1em;  /* for post titles */
+    --date-font-size: 0.9em;  /* for dates */
+    --link-hover-color: #333;
+    --nav-padding: 1em;
+}
+
+/* ===============================================================
+    Typography
+================================================================= */
+
 body {
-    font-family: Arial, sans-serif;
-    color: #333;
+    font-family: var(--body-font);
+    color: var(--primary-color);
     line-height: 1.6;
     padding: 1em;
     max-width: 800px;
     margin: 0 auto;
     background-color: #fff;
 }
-
-h1, h2, h3, h4, h5, h6 {
-    color: #000;
+h1 {
+ font-size: 2em; 
 }
+h3 {
+ font-size: 1.17em;
+}
+
+.main-header {
+    color: var(--secondary-color);
+    font-size: var(--main-header-font-size);
+  
+   }
+
+.post-title {
+    color: var(--secondary-color);
+    font-size: var(--post-title-font-size);
+
+    }
 
 a {
-    color: #000;
+    color: var(--secondary-color);
 }
+
+/* ===============================================================
+    Navigation Styles
+================================================================= */
 
 nav {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 2em;
+    margin-bottom: 0em;
+  /*padding: var(--nav-padding);*/
 }
 
 nav a {
     text-decoration: none;
-    color: #000;
+    color: var(--secondary-color);
     margin-right: 1em;
 }
 
@@ -45,5 +83,35 @@ nav ul li {
 
 nav ul li:last-child {
     margin-right: 0;
+}
+
+nav a:hover {
+    color: var(--link-hover-color); 
+}
+
+/* ===============================================================
+    Layout Styles
+================================================================= */
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.post-date {
+    color: var(--primary-color);
+    font-size: var(--date-font-size);
+}
+
+.post-tags {
+    color: var(--primary-color);
+    font-size: 0.8em;
+
+}
+.list-view header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
