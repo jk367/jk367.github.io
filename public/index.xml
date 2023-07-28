@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on My New Hugo Site</title>
+    <title>James Kettle on My New Hugo Site</title>
     <link>http://example.org/</link>
-    <description>Recent content in Home on My New Hugo Site</description>
+    <description>Recent content in James Kettle on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Jul 2023 19:05:51 +0400</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Links</title>
       <link>http://example.org/links/</link>
@@ -53,10 +53,8 @@ There are times when places speak to you more than words. They speak a language 
       <pubDate>Wed, 07 Jun 2023 17:34:25 -0400</pubDate>
       
       <guid>http://example.org/about/</guid>
-      <description>About:
-Hi, my name is James Kettle. I&amp;rsquo;m a writer and programmer currently living in Tbilisi, Georgia.
-Some highlights:
-I went to Columbia and Sciences Po (‘23) and have two degrees, one in Economics and one in Information Science (a mix of Sociology and CS). I have worked at BlackRock, Plural Strategy Consulting, a school in France, and an NGO called Impact Jeunes in Marseille. I enjoy programming, designing, and writing.</description>
+      <description>Hi, my name is James Kettle. I&amp;rsquo;m a writer and programmer currently living in Tbilisi, Georgia.
+Background I went to Columbia and Sciences Po (‘23) and have two degrees, one in Economics and one in Information Science (a mix of Sociology and CS). I have worked at BlackRock, Plural Strategy Consulting, a school in France, and an NGO called Impact Jeunes in Marseille. After I graduated in May 2023, I decided to move to Georgia and become a math teacher at the Georgian American School.</description>
     </item>
     
   </channel>

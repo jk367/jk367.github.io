@@ -2,29 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://jameskettle.io/links/</loc>
+    <loc>http://example.org/things_i_like/blogs/</loc>
+    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/things_i_like/</loc>
+    <lastmod>2023-07-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/links/</loc>
     <lastmod>2023-07-14T20:47:00+04:00</lastmod>
   </url><url>
-    <loc>http://jameskettle.io/writing/simple_website/</loc>
+    <loc>http://example.org/writing/simple_website/</loc>
     <lastmod>2023-07-12T19:05:51+04:00</lastmod>
   </url><url>
-    <loc>http://jameskettle.io/</loc>
-    <lastmod>2023-07-12T19:05:51+04:00</lastmod>
-  </url><url>
-    <loc>http://jameskettle.io/writing/ags2/</loc>
+    <loc>http://example.org/writing/ags2/</loc>
     <lastmod>2023-07-12T17:45:53+04:00</lastmod>
   </url><url>
-    <loc>http://jameskettle.io/writing/ageorgiansketchbook0/</loc>
+    <loc>http://example.org/writing/ageorgiansketchbook0/</loc>
     <lastmod>2023-06-09T14:32:57-04:00</lastmod>
   </url><url>
-    <loc>http://jameskettle.io/about/</loc>
+    <loc>http://example.org/about/</loc>
     <lastmod>2023-06-07T17:34:25-04:00</lastmod>
   </url><url>
-    <loc>http://jameskettle.io/writing/</loc>
+    <loc>http://example.org/writing/</loc>
     <lastmod>2023-06-07T14:18:24-04:00</lastmod>
   </url><url>
-    <loc>http://jameskettle.io/categories/</loc>
+    <loc>http://example.org/</loc>
+    <lastmod>2022-06-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://jameskettle.io/tags/</loc>
+    <loc>http://example.org/blogroll/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://example.org/portfolio/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://example.org/things_i_like/books/</loc>
+  </url><url>
+    <loc>http://example.org/categories/</loc>
+  </url><url>
+    <loc>http://example.org/things_i_like/software/</loc>
+  </url><url>
+    <loc>http://example.org/tags/</loc>
   </url>
 </urlset>
