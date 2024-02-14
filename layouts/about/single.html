@@ -5,9 +5,11 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+<main class="grid-container">
     {{ partial "navbar.html" . }}
     <h1>{{ .Title }}</h1>
     {{ .Content }}
+</main>
 </body>
 </html>
 

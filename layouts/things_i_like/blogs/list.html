@@ -6,17 +6,18 @@
 </head>
 <body>
     {{ partial "navbar.html" . }}
-    <h1>Blogs I Like</h1>
-{{ .Content }} 
-    <ul>
-        {{ range .Pages }}
-        <li>
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-            <p>{{ .Summary }}</p>
-        </li>
-        {{ end }}
-    </ul>
-
+    <main class="grid-container"> 
+        <h1>Blogs I Like</h1>
+            {{ .Content }} 
+            <ul>
+                {{ range .Pages }}
+            <li>
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+                <p>{{ .Summary }}</p>
+            </li>
+            {{ end }}
+            </ul>
+    </main>
 </body>
 </html>
 
